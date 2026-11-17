@@ -1,0 +1,57 @@
+{
+  "summary": "경기도 남양주시는 6읍 3면 7동에 걸쳐 도심과 북한강·한강 변의 자연, 산자락 마을이 함께 있다. 다산 정약용의 고향이자 조선왕릉 같은 역사 유산이 곳곳에 남아 있고, 경의중앙선·경춘선·지하철 4호선과 8호선이 서울과 이어진다.",
+  "facts": [
+    {
+      "label": "인구",
+      "value": "737,315명 (내국인 727,066명 + 외국인 10,249명)",
+      "asOf": "2026년 9월",
+      "source": { "title": "남양주시청 - 일반현황", "url": "https://www.nyj.go.kr/www/contents.do?key=2520" }
+    },
+    {
+      "label": "면적",
+      "value": "458.1㎢",
+      "asOf": "2024-12-31 (2025년 기본통계)",
+      "source": { "title": "남양주시청 - 남양주 기본통계", "url": "https://www.nyj.go.kr/www/contents.do?key=2522" }
+    },
+    {
+      "label": "행정구역",
+      "value": "6읍 3면 7동",
+      "asOf": "2026년 (일반현황 최종수정 2026-10-26)",
+      "source": { "title": "남양주시청 - 일반현황", "url": "https://www.nyj.go.kr/www/contents.do?key=2520" }
+    },
+    {
+      "label": "시청",
+      "value": "제1청사 경춘로 1037(금곡동), 제2청사 경춘로 522(다산동)",
+      "asOf": "2026-11-17 확인",
+      "source": { "title": "남양주시청 누리집 하단 안내", "url": "https://www.nyj.go.kr/www/index.do" }
+    }
+  ],
+  "transport": [
+    {
+      "mode": "지하철",
+      "description": "경의중앙선 운길산역에서 내려 일반버스 58번을 타면 정약용유적지에 닿는다 (조안면 명소권).",
+      "source": { "title": "남양주시 문화관광 - 다산정약용문화제 교통안내", "url": "https://www.nyj.go.kr/culture/contents.do?key=281" }
+    },
+    {
+      "mode": "지하철",
+      "description": "지하철 8호선이 2024년 8월 암사역에서 별내역까지 연장(별내선)되어 다산역·별내역으로 바로 갈 수 있다.",
+      "source": { "title": "서울시 내 손안에 서울(2024-08-06) - 8호선 연장(암사역~별내역) 10일 개통", "url": "https://mediahub.seoul.go.kr/archives/2011902" }
+    },
+    {
+      "mode": "지하철",
+      "description": "경춘선은 별내·퇴계원·사릉·금곡·평내호평·천마산·마석역, 4호선 진접선은 별내별가람·오남·진접역에 선다.",
+      "source": { "title": "남양주시청 - 철도 현황", "url": "https://www.nyj.go.kr/www/contents.do?key=3108" }
+    },
+    {
+      "mode": "버스",
+      "description": "강남역·잠실역에서 7007번, 청량리역에서 707번을 타고 진접 방면(장승초교)에서 마을버스 2번으로 갈아타면 봉선사에 갈 수 있다.",
+      "source": { "title": "남양주시 문화관광 - 봉선사 연꽃축제 교통안내", "url": "https://www.nyj.go.kr/culture/contents.do?key=277" }
+    },
+    {
+      "mode": "자가용",
+      "description": "하남IC에서 팔당대교를 건너 팔당댐 방향으로 가면 조안면 정약용유적지 입구에 이른다.",
+      "source": { "title": "남양주시 문화관광 - 다산정약용문화제 교통안내", "url": "https://www.nyj.go.kr/culture/contents.do?key=281" }
+    }
+  ],
+  "verifiedAt": "2026-11-17"
+}

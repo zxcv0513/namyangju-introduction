@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Cloudflare 대시보드의 Worker 이름과 같아야 Workers Builds가 성공한다 (API.md 4장)
+  "name": "namyangju-introduction",
+  "main": "./src/worker/index.ts",
+  "compatibility_date": "2026-11-08", // 고정한 wrangler 4.156.2의 workerd가 지원하는 최신 날짜
+  "observability": { "enabled": true },
+  "assets": {
+    // 클라이언트 라우팅: 어느 주소에서 새로고침해도 index.html을 돌려준다
+    "not_found_handling": "single-page-application",
+    // /api/*, robots.txt, sitemap.xml 만 Hono(Worker)로 보내고 나머지는 정적 파일로 바로 응답
+    "run_worker_first": ["/api/*", "/robots.txt", "/sitemap.xml"]
+  }
+}

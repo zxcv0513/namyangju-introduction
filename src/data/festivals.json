@@ -1,0 +1,102 @@
+[
+  {
+    "id": "dasan-jeongyakyong-festival",
+    "name": "다산정약용문화제",
+    "months": [10],
+    "venue": "정약용유적지·다산생태공원 일원 (조안면)",
+    "description": "1986년부터 이어진 남양주의 대표 축제로, 다산 정약용을 기리는 헌다례와 문예대회, 체험 행사가 열린다. 2026년에 40회째를 맞았다.",
+    "lastHeldYear": 2026,
+    "officialUrl": "https://www.nyj.go.kr/thinkj/index.do",
+    "sources": [
+      { "title": "남양주시 문화관광 - 다산정약용문화제", "url": "https://www.nyj.go.kr/culture/contents.do?key=281" },
+      { "title": "위키트리(2026-10-19) - 남양주시, 다산정약용문화제 2만 명 발길", "url": "https://www.wikitree.co.kr/articles/1167321" },
+      { "title": "헤럴드경기(2025-10-01) - 남양주시, 제39회 다산정약용문화제 10월 18일~19일", "url": "https://www.heraldk.com/article/2025100100093922901" }
+    ],
+    "verifiedAt": "2026-11-17"
+  },
+  {
+    "id": "gwangneung-forest-festival",
+    "name": "광릉숲축제",
+    "months": [9, 10],
+    "venue": "광릉숲 일원 (진접읍)",
+    "description": "평소 들어갈 수 없는 유네스코 생물권보전지역 광릉숲 길을 축제 기간에만 걸어 볼 수 있다. 숲길 걷기와 버스킹, 플리마켓이 함께 열린다.",
+    "lastHeldYear": 2026,
+    "officialUrl": "https://www.nyj.go.kr/gff/index.do",
+    "sources": [
+      { "title": "남양주시 문화관광 - 광릉숲축제", "url": "https://www.nyj.go.kr/culture/contents.do?key=282" },
+      { "title": "위키트리(2026-10-26) - 남양주시, 광릉숲축제 가을 정취 선사", "url": "https://www.wikitree.co.kr/articles/1169277" }
+    ],
+    "verifiedAt": "2026-11-17"
+  },
+  {
+    "id": "bongseonsa-lotus-festival",
+    "name": "봉선사 연꽃축제",
+    "months": [7, 8],
+    "venue": "봉선사 (진접읍)",
+    "description": "봉선사 연못에 연꽃이 필 무렵 열리는 불교문화 축제로, 공연과 글짓기·그림 대회, 연꽃 관람 프로그램이 마련된다.",
+    "lastHeldYear": 2025,
+    "officialUrl": "http://www.bongsunsa.net/",
+    "sources": [
+      { "title": "남양주시 문화관광 - 봉선사 연꽃축제", "url": "https://www.nyj.go.kr/culture/contents.do?key=277" },
+      { "title": "메트로신문(2025-08-25) - 남양주시 주광덕 시장, 봉선사 연꽃축제 참석", "url": "https://www.metroseoul.co.kr/article/20250825500163" }
+    ],
+    "verifiedAt": "2026-11-17"
+  },
+  {
+    "id": "wangsukcheon-festival",
+    "name": "왕숙천문화제",
+    "months": [10],
+    "venue": "도농체육공원 (다산동)",
+    "description": "다산동 주민들이 꾸리는 가을 동네 축제로 공연과 전통놀이 체험, 플리마켓, 푸드트럭이 하루 동안 열린다.",
+    "lastHeldYear": 2025,
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=283",
+    "sources": [
+      { "title": "남양주시 문화관광 - 왕숙천문화제", "url": "https://www.nyj.go.kr/culture/contents.do?key=283" },
+      { "title": "아시아경제(2025-10-20) - Namyangju to Host the 12th Wangsukcheon Cultural Festival", "url": "https://www.asiae.co.kr/en/article/2025102017311933265" }
+    ],
+    "verifiedAt": "2026-11-17"
+  },
+  {
+    "id": "namyangju-garden-culture-expo",
+    "name": "남양주 정원문화박람회",
+    "months": [9],
+    "venue": "다산중앙공원 (다산동, 2025년 개최지)",
+    "description": "정약용의 자연관을 주제로 정원 전시, 정원 콘퍼런스, 체험 프로그램을 여는 박람회다. 시는 다음 행사를 2027년 5월 별내동 은하수 물길공원에서 열 계획이라고 안내한다.",
+    "lastHeldYear": 2025,
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=4910",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 정원문화박람회", "url": "https://www.nyj.go.kr/culture/contents.do?key=4910" },
+      { "title": "경인일보(2025-09-23) - 정약용의 자연관 잇는 '남양주 정원문화박람회'", "url": "https://www.kyeongin.com/article/1752180" },
+      { "title": "아시아경제(2025-09-26) - Namyangju Launches 'Namyangju Garden Culture Expo'", "url": "https://www.asiae.co.kr/en/article/2025092618573768886" }
+    ],
+    "verifiedAt": "2026-11-17"
+  },
+  {
+    "id": "toegyewon-sandae-nori-festival",
+    "name": "퇴계원산대놀이 축제",
+    "months": [6],
+    "venue": "남양주 궁집 (평내동, 2026년 개최지)",
+    "description": "유네스코 인류무형문화유산 '한국의 탈춤'에 포함된 퇴계원산대놀이를 공연과 체험 마당으로 선보이는 전통 축제다.",
+    "lastHeldYear": 2026,
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=274",
+    "sources": [
+      { "title": "남양주시 문화관광 - 퇴계원산대놀이", "url": "https://www.nyj.go.kr/culture/contents.do?key=274" },
+      { "title": "파이낸셜뉴스(2026-06-28) - 남양주시 '퇴계원산대놀이 축제' 성료", "url": "https://www.fnnews.com/news/202606281433328508" }
+    ],
+    "verifiedAt": "2026-11-17"
+  },
+  {
+    "id": "namyangju-lifelong-learning-festival",
+    "name": "남양주시 평생학습축제",
+    "months": [10],
+    "venue": "정약용도서관·다산문화공원 일원 (다산동, 2025년 개최지)",
+    "description": "시민 학습동아리와 평생학습기관이 배운 것을 전시·공연·체험 부스로 나누는 열린 학습 축제다. 시 안내에 따르면 다음 행사는 2027년 예정이다.",
+    "lastHeldYear": 2025,
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=284",
+    "sources": [
+      { "title": "남양주시 문화관광 - 평생학습축제", "url": "https://www.nyj.go.kr/culture/contents.do?key=284" },
+      { "title": "아시아경제(2025-10-26) - Namyangju City Successfully Holds Lifelong Learning Festival", "url": "https://www.asiae.co.kr/en/article/2025102613501688003" }
+    ],
+    "verifiedAt": "2026-11-17"
+  }
+]

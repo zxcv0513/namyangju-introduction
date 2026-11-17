@@ -1,0 +1,190 @@
+[
+  {
+    "id": "jeongyakyong-historic-site",
+    "name": "정약용유적지",
+    "region": "조안면",
+    "address": "경기도 남양주시 조안면 다산로747번길 11",
+    "category": "역사·문화",
+    "description": "실학자 다산 정약용이 태어나고 생을 마친 마재마을에 생가 여유당과 묘소, 기념관이 모여 있다. 거중기 복원 모형 등으로 다산의 학문과 삶을 둘러볼 수 있다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 역사·사찰 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=309&si1=1&si2=27" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 다산유적지(남양주)", "url": "https://www.ktriptips.com/kor/tourspot/126806" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "dasan-eco-park",
+    "name": "다산생태공원",
+    "region": "조안면",
+    "address": "경기도 남양주시 조안면 다산로 767",
+    "category": "자연",
+    "description": "팔당호 물가를 따라 습지와 수생식물원, 전망대를 잇는 산책로가 놓인 수변 생태공원이다. 정약용유적지 바로 옆이라 함께 걷기 좋다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 다산생태공원", "url": "https://www.ktriptips.com/kor/tourspot/2500687" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "mului-jeongwon",
+    "name": "물의정원",
+    "region": "조안면",
+    "address": "경기도 남양주시 조안면 북한강로 398",
+    "category": "자연",
+    "description": "북한강 자전거길과 맞닿은 강변 공원으로, 철마다 꽃양귀비·연꽃·황화코스모스가 피는 산책 명소다. 2025년 뱃나들이교와 산책로에 야간 조명이 더해졌다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 하천·공원 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=253&si1=2&si2=2" },
+      { "title": "경인일보(2025-05-08) - 남양주시, 물의정원 야간경관 랜드마크 조성", "url": "https://www.kyeongin.com/article/1738795" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "sujongsa",
+    "name": "수종사",
+    "region": "조안면",
+    "address": "경기도 남양주시 조안면 북한강로433번길 186",
+    "category": "역사·문화",
+    "description": "운길산 정상 가까이 자리한 절로, 북한강과 남한강이 만나는 두물머리를 내려다보는 전망으로 이름났다. 경내에 팔각오층석탑 등 국가지정유산이 있다.",
+    "officialUrl": null,
+    "sources": [
+      { "title": "남양주시 문화관광 - 역사·사찰 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=309&si1=1&si2=27" },
+      { "title": "남양주시 문화관광 - 국가지정유산 목록(수종사 팔각오층석탑)", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=305&si1=1&si2=23" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 수종사", "url": "https://www.ktriptips.com/kor/tourspot/129516" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "hongneung-yureung",
+    "name": "홍릉과 유릉(홍유릉)",
+    "region": "금곡동",
+    "address": "경기도 남양주시 홍유릉로 352-1",
+    "category": "역사·문화",
+    "description": "대한제국의 고종과 명성황후, 순종과 두 황후가 잠든 왕릉으로 유네스코 세계유산 조선왕릉에 속한다. 황제릉 형식을 따라 다른 조선왕릉과 배치가 다르다.",
+    "officialUrl": "https://royal.khs.go.kr/",
+    "sources": [
+      { "title": "남양주시 문화관광 - 국가지정유산 목록(홍·유릉)", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=305&si1=1&si2=23" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 남양주 홍릉과 유릉", "url": "https://www.ktriptips.com/kor/tourspot/125548" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "gwangneung",
+    "name": "광릉",
+    "region": "진접읍",
+    "address": "경기도 남양주시 진접읍 광릉수목원로 354",
+    "category": "역사·문화",
+    "description": "조선 세조와 정희왕후의 능으로, 한 정자각을 두고 두 언덕에 능을 나눠 만든 형식이 처음 쓰인 곳이다. 유네스코 세계유산이며 울창한 광릉숲에 둘러싸여 있다.",
+    "officialUrl": "https://royal.khs.go.kr/",
+    "sources": [
+      { "title": "남양주시 문화관광 - 국가지정유산 목록(광릉)", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=305&si1=1&si2=23" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 남양주 광릉(세조,정희왕후)", "url": "https://www.ktriptips.com/kor/tourspot/125546" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "bongseonsa",
+    "name": "봉선사",
+    "region": "진접읍",
+    "address": "경기도 남양주시 진접읍 봉선사길 32",
+    "category": "역사·문화",
+    "description": "고려 때 세워져 세조의 능을 지키는 절이 되며 지금 이름을 얻은 고찰이다. 넓은 연못에 여름이면 연꽃이 피고 봉선사 동종 같은 유산을 볼 수 있다.",
+    "officialUrl": "http://www.bongsunsa.net/",
+    "sources": [
+      { "title": "남양주시 문화관광 - 역사·사찰 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=309&si1=1&si2=27" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 봉선사(경기)", "url": "https://www.ktriptips.com/kor/tourspot/126539" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "namyangju-gungjip",
+    "name": "남양주 궁집",
+    "region": "평내동",
+    "address": "경기도 남양주시 평내로 9",
+    "category": "역사·문화",
+    "description": "영조가 막내딸 화길옹주를 위해 지어 준 집으로 궁궐 건축 기법이 남아 있는 국가민속문화유산이다. 주변에 옮겨 온 한옥 여러 채가 옛길을 따라 놓여 있다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 국가지정유산 목록(남양주 궁집)", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=305&si1=1&si2=23" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 궁집", "url": "https://www.ktriptips.com/kor/tourspot/3013816" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "onam-lake-park",
+    "name": "오남호수공원",
+    "region": "오남읍",
+    "address": "경기도 남양주시 오남읍 팔현로 85-1",
+    "category": "체험·공원",
+    "description": "농업용 저수지를 시민 공원으로 바꾼 곳으로, 숲에 둘러싸인 호수를 한 바퀴 도는 산책로가 있다. 유리 바닥 스카이워크와 음악분수가 볼거리다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 하천·공원 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=253&si1=2&si2=2" },
+      { "title": "메트로신문(2025-04-12) - 남양주시, 오남호수공원 오남 제3공영주차장 운영 개시", "url": "https://www.metroseoul.co.kr/article/20250412500011" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "cheonghak-culture-park",
+    "name": "청학문화공원",
+    "region": "별내면",
+    "address": "경기도 남양주시 별내면 순화궁로909번길 35",
+    "category": "체험·공원",
+    "description": "수락산 아래 청학계곡의 불법 시설을 걷어내고 하천을 되살려 만든 공원이다. 계곡 옆 모래사장이 있어 해변처럼 물놀이를 즐길 수 있다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 숲·계곡 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=252&si1=2&si2=1" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 청학문화공원", "url": "https://www.ktriptips.com/kor/tourspot/4121419" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "piano-falls",
+    "name": "피아노폭포",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 폭포로 562",
+    "category": "체험·공원",
+    "description": "하수처리시설인 화도푸른물센터가 정화한 물을 끌어올려 절벽 위에서 흘려보내는 인공폭포다. 피아노 모양 건물과 여름철 물놀이장이 함께 있다.",
+    "officialUrl": "https://www.nyj.go.kr/culture/contents.do?key=239",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 하천·공원 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=253&si1=2&si2=2" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 화도푸른물센터 피아노폭포", "url": "https://www.ktriptips.com/kor/tourspot/780768" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "mulmalgeum-arboretum",
+    "name": "물맑음수목원",
+    "region": "수동면",
+    "address": "경기도 남양주시 수동면 지둔로307번길 47-4",
+    "category": "자연",
+    "description": "남양주시가 운영하는 체험형 수목원으로 숲 해설, 목공예, 산림치유 같은 프로그램을 연다. 수동면 숲속에서 계절마다 바뀌는 식물을 관찰할 수 있다.",
+    "officialUrl": "https://www.nyj.go.kr/forest/",
+    "sources": [
+      { "title": "남양주시 문화관광 - 남양주 핵심 11Pick", "url": "https://www.nyj.go.kr/culture/contents.do?key=239" },
+      { "title": "남양주시 문화관광 - 숲·계곡 목록", "url": "https://www.nyj.go.kr/culture/selectTnResrceListU.do?key=252&si1=2&si2=1" },
+      { "title": "한국관광공사 관광정보 미러(코리아트립팁스) - 물맑음수목원", "url": "https://www.ktriptips.com/kor/tourspot/2633910" }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  }
+]

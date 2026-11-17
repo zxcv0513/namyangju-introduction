@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 색은 여기 한 곳에서만 정한다 (DESIGN.md 1장). 대비: ink·muted·accent 모두 흰 배경에서 WCAG AA 4.5:1 이상 */
+@theme {
+  --color-ink: #1d2b28;
+  --color-muted: #4f5d59;
+  --color-accent: #0f6b63;
+  --color-accent-strong: #0b524c;
+  --color-accent-soft: #e3f1ee;
+  --color-surface: #f5f8f7;
+  --color-line: #d5dfdc;
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-white text-ink antialiased;
+    word-break: keep-all;
+  }
+  /* 키보드 포커스는 항상 보이게 */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}

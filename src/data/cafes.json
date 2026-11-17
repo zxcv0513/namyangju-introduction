@@ -1,0 +1,405 @@
+[
+  {
+    "id": "cafe-daenerys",
+    "name": "카페 대너리스",
+    "region": "조안면",
+    "address": "경기도 남양주시 조안면 북한강로 914",
+    "tags": [
+      "강뷰",
+      "대형카페"
+    ],
+    "description": "통창 너머로 북한강이 펼쳐지는 조안면의 대표 강변 대형 카페",
+    "sources": [
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 카페 대너리스",
+        "url": "https://polle.com/place/4Tg6lQ/%EC%B9%B4%ED%8E%98%20%EB%8C%80%EB%84%88%EB%A6%AC%EC%8A%A4"
+      },
+      {
+        "title": "트렌드픽 - 남양주 대형카페 TOP 5 (2026-08-14)",
+        "url": "https://www.tpick.co.kr/post/7751"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "raonsoom",
+    "name": "라온숨",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 북한강로 1146",
+    "tags": [
+      "강뷰",
+      "대형카페",
+      "베이커리",
+      "루프탑"
+    ],
+    "description": "층마다 콘셉트가 다른 북한강변 대형 브런치·베이커리 카페",
+    "sources": [
+      {
+        "title": "라온숨 공식 홈페이지 - 소개",
+        "url": "https://www.raonsoom.com/about.html"
+      },
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "여기유 - 남양주 라온숨",
+        "url": "https://xn--ok0b236bp0a.com/place/24328"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "niksen",
+    "name": "닉센",
+    "region": "별내동",
+    "address": "경기도 남양주시 불암산로59번길 16-15",
+    "tags": [
+      "베이커리",
+      "정원",
+      "루프탑"
+    ],
+    "description": "불암산 아래 넓은 야외 공간을 갖춘 별내동 베이커리 카페",
+    "sources": [
+      {
+        "title": "다이닝코드 - 닉센",
+        "url": "https://www.diningcode.com/profile.php?rid=eMOVXZaljqB4"
+      },
+      {
+        "title": "K-TRIP TIPS - 닉센 (최종수정 2025-01-15)",
+        "url": "https://www.ktriptips.com/kor/food/2830315"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "brique",
+    "name": "브리끄",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 북한강로 1696-2",
+    "tags": [
+      "강뷰",
+      "대형카페",
+      "정원"
+    ],
+    "description": "잔디 마당과 여러 동의 건물이 어우러진 북한강변 정원형 카페",
+    "sources": [
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 브리끄",
+        "url": "https://polle.com/place/4QXHjS/%EB%B8%8C%EB%A6%AC%EB%81%84"
+      },
+      {
+        "title": "트렌드픽 - 남양주 대형카페 TOP 5 (2026-08-14)",
+        "url": "https://www.tpick.co.kr/post/7751"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "tables-lounge-bukhangang",
+    "name": "테이블스 라운지 북한강점",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 북한강로 1694",
+    "tags": [
+      "강뷰",
+      "대형카페",
+      "베이커리"
+    ],
+    "description": "큰 창으로 북한강을 보며 빵과 브런치를 즐기는 강변 카페",
+    "sources": [
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 테이블스 라운지 북한강점",
+        "url": "https://polle.com/place/3hFscq/%ED%85%8C%EC%9D%B4%EB%B8%94%EC%8A%A4%20%EB%9D%BC%EC%9A%B4%EC%A7%80"
+      },
+      {
+        "title": "트렌드픽 - 남양주 대형카페 TOP 5 (2026-08-14)",
+        "url": "https://www.tpick.co.kr/post/7751"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "nine-block-view-paldang",
+    "name": "나인블럭 뷰 팔당점",
+    "region": "와부읍",
+    "address": "경기도 남양주시 와부읍 다산로 56",
+    "tags": [
+      "강뷰",
+      "대형카페"
+    ],
+    "description": "팔당댐 인근 강변을 따라 길게 자리한 3층 규모 공장형 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 나인블럭 뷰 팔당점 (최종수정 2025-05-12)",
+        "url": "https://www.ktriptips.com/kor/food/2830897"
+      },
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 나인블럭 뷰",
+        "url": "https://polle.com/place/5hrC72/%EB%82%98%EC%9D%B8%EB%B8%94%EB%9F%AD%20%EB%B7%B0"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "bonaribe",
+    "name": "보나리베",
+    "region": "별내동",
+    "address": "경기도 남양주시 불암산로39번길 9-2",
+    "tags": [
+      "베이커리",
+      "대형카페"
+    ],
+    "description": "본관·별관과 야외 텐트존을 갖춘 별내동 대형 베이커리 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 보나리베 (최종수정 2025-05-12)",
+        "url": "https://www.ktriptips.com/kor/food/2829407"
+      },
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 보나리베",
+        "url": "https://polle.com/place/47npM1/%EB%B3%B4%EB%82%98%EB%A6%AC%EB%B2%A0"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "ayu-space",
+    "name": "아유 스페이스",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 북한강로1462번길 71",
+    "tags": [
+      "강뷰",
+      "정원",
+      "대형카페",
+      "반려견 동반"
+    ],
+    "description": "옛 별장을 고친 공간에서 정원과 북한강을 함께 누리는 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 아유스페이스 (최종수정 2026-06-05)",
+        "url": "https://www.ktriptips.com/kor/food/3336950"
+      },
+      {
+        "title": "하퍼스 바자 코리아 (2025-03-20)",
+        "url": "https://www.harpersbazaar.co.kr/article/1878847"
+      },
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 아유 스페이스",
+        "url": "https://polle.com/place/3n60Dr/%EC%95%84%EC%9C%A0%20%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "forday-paldang",
+    "name": "포러데이 팔당",
+    "region": "와부읍",
+    "address": "경기도 남양주시 와부읍 경강로926번길 8-7",
+    "tags": [
+      "강뷰",
+      "반려견 동반"
+    ],
+    "description": "야외석에서 한강을 바라보며 브런치를 즐기는 팔당 강변 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 포러데이 팔당 (최종수정 2026-11-13)",
+        "url": "https://www.ktriptips.com/kor/food/2867817"
+      },
+      {
+        "title": "모하지 - 남양주 팔당·북한강 드라이브 카페 모음 (2026-07-05)",
+        "url": "https://mohazi.net/magazine/namyangju-paldang-bukhangang-drive-cafes/"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 포러데이",
+        "url": "https://polle.com/place/1s6K6k/%ED%8F%AC%EB%9F%AC%EB%8D%B0%EC%9D%B4"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "palsup",
+    "name": "팔숲",
+    "region": "와부읍",
+    "address": "경기도 남양주시 와부읍 경강로849번길 38-41",
+    "tags": [
+      "산·계곡뷰",
+      "반려견 동반"
+    ],
+    "description": "산자락 숲을 커다란 통창으로 마주하는 와부읍 숲뷰 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 팔숲 (최종수정 2026-11-13)",
+        "url": "https://www.ktriptips.com/kor/food/2867787"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 팔숲",
+        "url": "https://polle.com/place/3vV4d8/%ED%8C%94%EC%88%B2"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "hutan",
+    "name": "후탄",
+    "region": "오남읍",
+    "address": "경기도 남양주시 오남읍 팔현로 81",
+    "tags": [
+      "대형카페",
+      "베이커리",
+      "호수·저수지뷰"
+    ],
+    "description": "오남저수지 바로 앞, 여러 층으로 넓게 꾸민 대형 베이커리 카페",
+    "sources": [
+      {
+        "title": "폴레(polle) 장소 정보 - 후탄",
+        "url": "https://polle.com/place/51o5Ed/%ED%9B%84%ED%83%84"
+      },
+      {
+        "title": "유가크루 크루톡 - 후탄 방문 글 (2026-01-07)",
+        "url": "https://www.yugacrew.com/crewtalk/24137"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "waltz-and-dr-man",
+    "name": "왈츠와 닥터만",
+    "region": "조안면",
+    "address": "경기도 남양주시 조안면 북한강로 856-37",
+    "tags": [
+      "강뷰"
+    ],
+    "description": "커피박물관을 함께 운영하는 북한강변의 오래된 커피 카페",
+    "sources": [
+      {
+        "title": "경기도 소식지 - 남양주 노포 카페 왈츠와 닥터만",
+        "url": "https://www.gg.go.kr/myggd/vol172/sub3_2.html"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 왈츠와 닥터만",
+        "url": "https://polle.com/place/2HCIjp/%EC%99%88%EC%B8%A0%EC%99%80%20%EB%8B%A5%ED%84%B0%EB%A7%8C"
+      },
+      {
+        "title": "맘맘 - 왈츠와 닥터만",
+        "url": "https://mom-mom.net/travel/places/6a7e6add52095dae1b618aca"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "bakery-theater",
+    "name": "베이커리 씨어터",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 경춘로2696번길 4-15",
+    "tags": [
+      "강뷰",
+      "정원",
+      "루프탑",
+      "베이커리"
+    ],
+    "description": "넓은 정원과 루프탑에서 북한강을 내려다보는 베이커리 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 베이커리 씨어터 (최종수정 2025-05-13)",
+        "url": "https://www.ktriptips.com/kor/food/2735135"
+      },
+      {
+        "title": "여기유 - 남양주 베이커리씨어터",
+        "url": "https://xn--ok0b236bp0a.com/place/22659"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 베이커리 씨어터",
+        "url": "https://polle.com/place/5alH6n/%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%94%A8%EC%96%B4%ED%84%B0"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "nokhwa",
+    "name": "녹화",
+    "region": "화도읍",
+    "address": "경기도 남양주시 화도읍 북한강로 1171",
+    "tags": [
+      "강뷰",
+      "반려견 동반"
+    ],
+    "description": "북한강을 바라보며 말차 디저트를 즐기는 화도읍 디저트 카페",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 녹화 (최종수정 2025-01-06)",
+        "url": "https://www.ktriptips.com/kor/food/2765575"
+      },
+      {
+        "title": "맘맘 - 녹화",
+        "url": "https://mom-mom.net/travel/places/6aa11dadad117b2193f9ca39"
+      },
+      {
+        "title": "폴레(polle) 장소 정보 - 녹화",
+        "url": "https://polle.com/place/3XvnEe/%EB%85%B9%ED%99%94"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  },
+  {
+    "id": "my-pottery",
+    "name": "마이포터리",
+    "region": "수동면",
+    "address": "경기도 남양주시 수동면 비룡로782번길 71-40",
+    "tags": [
+      "루프탑",
+      "정원",
+      "산·계곡뷰"
+    ],
+    "description": "도예 공방을 겸한 언덕 위 카페, 옥상에서 먼 능선을 조망",
+    "sources": [
+      {
+        "title": "K-TRIP TIPS - 마이포터리 (최종수정 2026-04-27)",
+        "url": "https://www.ktriptips.com/kor/tourspot/3014207"
+      },
+      {
+        "title": "타운카 블로그 - 마이포터리 (2022-12-05)",
+        "url": "https://www.towncar.co.kr/post/my-pottery-a-special-pottery-studio-cafe-in-namyangju"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "image": null
+  }
+]
