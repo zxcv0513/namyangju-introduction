@@ -11,7 +11,8 @@
   "assets": {
     // 클라이언트 라우팅: 어느 주소에서 새로고침해도 index.html을 돌려준다
     "not_found_handling": "single-page-application",
-    // /api/*, robots.txt, sitemap.xml 만 Hono(Worker)로 보내고 나머지는 정적 파일로 바로 응답
-    "run_worker_first": ["/api/*", "/robots.txt", "/sitemap.xml"]
+    // /api/*, robots.txt, 사이트맵 관련 주소만 Hono(Worker)로 보내고 나머지는 정적 파일로 바로 응답.
+    // /sitemap*, /Sitemap*, /SITEMAP* 는 비슷한 주소를 /sitemap.xml로 보내기 위해 포함 (Search Console 오류 대응)
+    "run_worker_first": ["/api/*", "/robots.txt", "/sitemap*", "/Sitemap*", "/SITEMAP*"]
   }
 }

@@ -43,6 +43,16 @@ export function createApp(loadCafes: () => unknown) {
     );
   });
 
+  // 사이트맵과 비슷한 주소(sitemap.xml/, Sitemap.xml, sitemap, sitemap_index.xml 등)는 SPA 화면(HTML)으로
+  // 떨어지지 않게 정식 주소로 영구 이동시킨다. Search Console "Sitemap이 HTML입니다" 오류 대응 (2026-11-17).
+  app.get("*", async (c, next) => {
+    const path = new URL(c.req.url).pathname;
+    if (path !== "/sitemap.xml" && /^\/sitemap(_index)?(\.xml)?\/?$/i.test(path)) {
+      return c.redirect("/sitemap.xml", 301);
+    }
+    return next();
+  });
+
   const notFound = (c: Context) =>
     c.json(errorBody("NOT_FOUND", "요청한 API가 없어요."), 404);
   app.all("/api/*", notFound);

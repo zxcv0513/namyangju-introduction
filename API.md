@@ -60,7 +60,9 @@
 
 - `GET /robots.txt` → `200 text/plain`. 모두 허용 + `Sitemap: {요청 주소}/sitemap.xml`
 - `GET /sitemap.xml` → `200 application/xml`. 4개 주소(`src/shared/types.ts`의 `SITE_PATHS`)
-- 배포 주소가 정해지지 않아 Worker가 요청 주소(origin)로 절대 URL을 만든다. 두 경로는 `wrangler.jsonc`의 `run_worker_first`에 포함. 캐시 1시간.
+- 배포 주소가 정해지지 않아 Worker가 요청 주소(origin)로 절대 URL을 만든다. 캐시 1시간.
+- 사이트맵과 비슷한 주소(`/sitemap.xml/`, `/Sitemap.xml`, `/sitemap`, `/sitemap_index.xml` 등, 대소문자 무시)는 `301`로 `/sitemap.xml`에 보낸다. 그 외 `/sitemap…` 주소는 `404`. Search Console이 SPA 화면을 받아 "Sitemap이 HTML입니다" 오류를 낸 것에 대한 대응 (2026-11-17).
+- `wrangler.jsonc`의 `run_worker_first`: `/api/*`, `/robots.txt`, `/sitemap*`, `/Sitemap*`, `/SITEMAP*`
 
 ## 3. 데이터 저장
 
@@ -81,7 +83,7 @@
 - `compatibility_date`: `2026-11-08` — 고정한 wrangler 4.156.2의 로컬 런타임이 지원하는 최신 날짜 (2026-11-17로 두면 로컬 실행 실패를 확인함). wrangler를 올릴 때 함께 올린다.
 - `wrangler.jsonc`의 `assets`:
   - `"not_found_handling": "single-page-application"` — 어느 주소에서 새로고침해도 화면이 열림
-  - `"run_worker_first": ["/api/*", "/robots.txt", "/sitemap.xml"]` — 이 경로만 Hono로 보내고 나머지는 정적 파일로 바로 응답 (https://developers.cloudflare.com/workers/static-assets/routing/worker-script/)
+  - `"run_worker_first": ["/api/*", "/robots.txt", "/sitemap*", "/Sitemap*", "/SITEMAP*"]` — 이 경로만 Hono로 보내고 나머지는 정적 파일로 바로 응답 (https://developers.cloudflare.com/workers/static-assets/routing/worker-script/)
 - 무료 플랜 한도: Worker 요청 하루 100,000회(정적 파일 요청은 무료·무제한), 빌드 월 3,000분 (https://developers.cloudflare.com/workers/platform/limits/ , https://developers.cloudflare.com/workers/ci-cd/builds/limits-and-pricing/)
 - 대시보드의 Worker 이름과 `wrangler.jsonc`의 `name`이 같아야 빌드가 성공한다 (Workers Builds 문서).
 - 사용자가 Cloudflare에 `namyangju-introduction` 프로젝트를 만들어 둠(2026-11-17) → `wrangler.jsonc`의 `name`은 `"namyangju-introduction"`으로 한다. 사용자 확인 결과 **Worker** (2026-11-17).

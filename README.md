@@ -25,7 +25,7 @@ npm run cf-typegen # wrangler.jsonc를 바꾼 뒤 worker-configuration.d.ts 다�
 | `src/worker/` | Hono API + `robots.txt`·`sitemap.xml`. `index.ts`(진입점) → `app.ts`(라우트·오류 응답) → `cafes.ts`(데이터 검사·응답 생성) |
 | `src/shared/types.ts` | 서버·화면 공통 타입, 태그 허용값 |
 | `src/data/*.json` | 카페·명소·축제·도시 정보 (원본 조사 자료와 출처 메모는 `research/`) |
-| `wrangler.jsonc` | Cloudflare Worker 설정. `/api/*`·`/robots.txt`·`/sitemap.xml`만 Worker 실행, 나머지는 정적 파일 |
+| `wrangler.jsonc` | Cloudflare Worker 설정. `/api/*`·`/robots.txt`·사이트맵 관련 주소만 Worker 실행, 나머지는 정적 파일 |
 
 ## 배포
 
