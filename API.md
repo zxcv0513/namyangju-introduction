@@ -107,7 +107,7 @@ Workers Builds 설정 (2026-11-17 공식 문서 확인 — https://developers.cl
 | Production branch | `main` |
 | Build command | `npm run build` (`tsc -b && vite build` → `dist/namyangju_introduction/wrangler.json` 생성) |
 | Deploy command | `npx wrangler deploy` (기본값. Vite 플러그인 v1의 빌드 결과 설정을 자동 사용) |
-| Node | `.node-version` = `24` (빌드 이미지 기본 24.22.1, react-router 8의 `>=22.22.0` 충족) |
+| Node | `.node-version` = `24.22.1` (빌드 이미지 기본값과 같은 정확한 버전 — `24`만 적었을 때 빌드 설치 단계 실패 의심, react-router 8의 `>=22.22.0` 충족) |
 
 - 빌드 서버 기본 npm은 10.9.2 (로컬은 11.20.0). `package-lock.json`은 lockfileVersion 3이라 둘 다 읽을 수 있다(추론). npm 11의 설치 스크립트 차단 경고는 npm 10에서는 해당 없음(추론) — 첫 빌드 로그로 확인.
 - Vite 플러그인 v2(베타)로 올리면 `wrangler deploy`로 배포할 수 없어 deploy command도 바꿔야 한다 (https://developers.cloudflare.com/workers/vite-plugin/v2-beta/).
