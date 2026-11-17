@@ -1,5 +1,7 @@
 # 남양주 산책 (namyangju-introduction)
 
+사이트: https://namyangju-introduction.xooxs0513.workers.dev
+
 남양주의 관광 명소, 축제·행사, 카페를 소개하는 사이트. 요구사항 `PRD.md`, 화면 `DESIGN.md`, API 계약 `API.md`.
 
 ## 실행

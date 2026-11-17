@@ -5,6 +5,9 @@
   "main": "./src/worker/index.ts",
   "compatibility_date": "2026-11-08", // 고정한 wrangler 4.156.2의 workerd가 지원하는 최신 날짜
   "observability": { "enabled": true },
+  // 배포 시 기본값을 명시 (2026-11-17 첫 배포 경고 반영): workers.dev 주소와 버전별 미리보기 주소 사용
+  "workers_dev": true,
+  "preview_urls": true,
   "assets": {
     // 클라이언트 라우팅: 어느 주소에서 새로고침해도 index.html을 돌려준다
     "not_found_handling": "single-page-application",
