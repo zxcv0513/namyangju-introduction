@@ -73,6 +73,21 @@ function CafeBrowser({ data }: { data: CafesResponse }) {
   const searchRef = useRef<HTMLInputElement>(null);
   const searchId = useId();
 
+  // 모바일에서 필터 영역이 화면 밖으로 나가면 "필터로 이동" 버튼을 보여준다 (QA.md 4장 UX 제안, 2026-11-17 승인)
+  const panelRef = useRef<HTMLDivElement>(null);
+  const [panelOutOfView, setPanelOutOfView] = useState(false);
+  useEffect(() => {
+    const el = panelRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(([entry]) => setPanelOutOfView(!entry?.isIntersecting));
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+  const jumpToFilter = () => {
+    panelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    searchRef.current?.focus({ preventScroll: true });
+  };
+
   // 뒤로 가기 등 바깥에서 주소의 검색어가 바뀌면 검색칸을 맞춘다
   useEffect(() => {
     if (urlFilter.query !== pushedQuery.current) {
@@ -132,7 +147,7 @@ function CafeBrowser({ data }: { data: CafesResponse }) {
 
   return (
     <>
-      <div className="space-y-5 rounded-xl border border-line bg-surface p-4 sm:p-5">
+      <div ref={panelRef} className="scroll-mt-20 space-y-5 rounded-xl border border-line bg-surface p-4 sm:p-5">
         {/* 검색 (FR-8) */}
         <div className="relative">
           <label htmlFor={searchId} className="sr-only">
@@ -210,6 +225,16 @@ function CafeBrowser({ data }: { data: CafesResponse }) {
         </ul>
       )}
 
+      {panelOutOfView && (
+        <button
+          type="button"
+          onClick={jumpToFilter}
+          className="fixed bottom-4 right-4 z-30 inline-flex min-h-11 items-center gap-1 rounded-full bg-accent px-4 text-sm font-medium text-white shadow-lg hover:bg-accent-strong md:hidden"
+        >
+          <span aria-hidden="true">↑</span> 필터로 이동
+        </button>
+      )}
+
       {data.verifiedAt && (
         <p className="mt-8 text-sm text-muted">
           카페 정보 확인일: {data.verifiedAt} · 방문 전 지도에서 영업 여부를 확인하세요.
@@ -225,7 +250,7 @@ function CafeCard({ cafe }: { cafe: Cafe }) {
     <article className="flex h-full flex-col overflow-hidden rounded-xl border border-line bg-white">
       <div
         aria-hidden="true"
-        className="flex h-28 items-center justify-center bg-accent-soft text-4xl font-bold text-accent/60 [background-image:radial-gradient(currentColor_1px,transparent_1px)] [background-size:14px_14px]"
+        className="flex h-14 items-center justify-center bg-accent-soft text-2xl font-bold sm:h-28 sm:text-4xl text-accent/60 [background-image:radial-gradient(currentColor_1px,transparent_1px)] [background-size:14px_14px]"
       >
         <span className="rounded-full bg-accent-soft px-4">{cafe.name.replace(/^카페\s*/, "").charAt(0)}</span>
       </div>
