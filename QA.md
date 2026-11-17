@@ -65,6 +65,9 @@
 ## 5. 배포 후 실제 사이트 검증 (2026-11-17)
 
 - 주소: https://namyangju-introduction.xooxs0513.workers.dev
-- 배포: 로컬에서 `npm run deploy` (Version ID `57f7ab85-2ea0-44ff-b49a-08783e82b25b`). GitHub 연결 빌드(Workers Builds)는 첫 push 때 배포 기록이 없어 원인 미확인 — 이후 push로 재확인.
+- 배포: 처음 두 번은 로컬에서 `npm run deploy`로 직접 배포. GitHub 연결 자동 배포(Workers Builds)는 아래 두 원인을 고친 뒤 커밋 `3d3b550`에서 **성공**(빌드 약 60초, 2026-11-17 02:13 UTC 배포)하고 실제 사이트 검사 57개 통과.
+  - 원인 1: Worker가 바깥 저장소 `zxcv0513/kdt-exam`에 연결돼 있었음 (루트에 `package.json` 없이 `package-lock.json`만 있어 설치 실패) → `namyangju-introduction`으로 다시 연결
+  - 원인 2: Build command가 비어 있어 vite 빌드 없이 `wrangler deploy`가 실행됨 → "`assets` ... missing the required `directory`" 오류 → Build command `npm run build` 설정
+  - 이후 `main`에 push하면 자동 배포된다.
 - curl: 4개 페이지·없는 주소 200(text/html), `/api/cafes` 200(15곳, 5분 캐시), POST 405, `/api/nope` 404, `robots.txt`·`sitemap.xml`이 실제 주소로 생성, `favicon.svg` 200
 - 브라우저 검사(CDP, 로컬과 같은 스크립트 50개): 50개 통과, 0개 실패 — 360px 가로 스크롤, 모바일 메뉴, 카페 필터·검색·한글 입력·URL 유지·뒤로 가기, API 실패→다시 시도, noindex, 콘솔 오류 없음
